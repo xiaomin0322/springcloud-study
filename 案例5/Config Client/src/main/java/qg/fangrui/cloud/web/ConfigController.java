@@ -17,7 +17,20 @@ public class ConfigController {
     String configword;
 
     @RequestMapping("/config")
+    
+    /**
+     * ====================qg.fangrui.cloud.web.ConfigController@682e422c
+====================qg.fangrui.cloud.web.ConfigController@682e422c
+====================qg.fangrui.cloud.web.ConfigController@682e422c
+====================qg.fangrui.cloud.web.ConfigController@682e422c
+====================qg.fangrui.cloud.web.ConfigController@682e422c
+-----------------更新过后的日志------------------换了一个对象，更新了当前的对象，注入到spring 容器中
+====================qg.fangrui.cloud.web.ConfigController@5d6db19b
+     * 
+     * @return
+     */
     public String printfConfig(){
+    	System.out.println("===================="+this);
         return "The Config Word Is : "+configword;
     }
 }
